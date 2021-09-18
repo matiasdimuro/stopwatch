@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Cronometro</title>
+</head>
+<body>
+    <div class="container">
+        <p id="title">Stopwatch</p>
+        <div id="time">
+            <span id="min" class="displays">00:</span>
+            <span id="sec" class="displays">00.</span>
+            <span id="milsec" class="displays">0</span>
+        </div>
+        <div class="buttons">
+            <button id="start" class="btn" style="margin-right: .5em;" onclick="startTime()">Start</button>
+            <button id="stop" class="btn" style="margin-right: .5em;" onclick="stopTime()">Stop</button>
+            <button id="clear" class="btn" onclick="clearTime()">Clear</button>
+        </div> 
+    </div>
+    <script src="./js/app.js" text="text/javascript"></script>
+</body>
+</html>
